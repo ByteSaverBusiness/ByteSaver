@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+}
+
+.background {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.7) blur(3px);
+}
+
+.logo {
+    position: absolute;
+    top: 2%;
+    left: 3%;
+}
+
+.mainbar {
+    position: absolute;
+    right: 32px;
+    top: 16px;
+    font-size: 24px;
+}
+
+.mainbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.mainbar a:hover {
+    color: rgb(221, 221, 221);
+    text-decoration: underline;
+}
+
+.button {
+    position: absolute;
+    left: 3%;
+    top: 30%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.button:hover {
+    position: absolute;
+    left: 3%;
+    top: 30%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.button a {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.button a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    position: absolute;
+    right: 3%;
+    bottom: 16px;
+    color: white;
+}
+
+#contact .contact {
+    width: 100%;
+    min-height: 300px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 40px;
+}
+
+.contact-text {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.contact-data {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-position: inside;
+}
+.contact-data a {
+    color: white;
+}
+
+.contact-data a:hover {
+    color: rgb(221, 221, 221);
+}
+
+.imprint {
+    position: absolute;
+    left: 3%;
+    top: 10%;
+    color: white;
+    font-size: 24px;
+}
+
+.imprint a {
+    color:white;
+}
+
+.imprint a:hover {
+    color: rgb(221, 221, 221);
+}
+
+.advice {
+    position: absolute;
+    left: 3%;
+    top: 10%;
+    color: white;
+    font-size: 24px;
+}
+        
+.contact-support {
+    color: white;
+    text-decoration: underline;
+}
